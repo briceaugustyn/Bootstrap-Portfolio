@@ -1,0 +1,10 @@
+.container{
+    margin: auto;
+}
+
+
+/* [class*="col-"] match all elements with class name that starts with (^) */ 
+[class*="col-"], .col{
+    border: 1px dashed rebeccapurple;
+    border-radius: 1em;
+}
